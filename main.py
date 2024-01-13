@@ -80,6 +80,10 @@ def change_html():
     return result_html
 
 
+@app.route('/demo', methods=["GET"])
+def demo():
+    return 'Demo'
+
 
 def main():
     app.run(port=5001)

@@ -83,6 +83,7 @@ def change_html():
 @app.route('/demo', methods=["GET"])
 def demo():
     print(1234765243879683426)
+    print(123)
     return 'Demo'
 
 
